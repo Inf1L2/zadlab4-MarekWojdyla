@@ -18,6 +18,9 @@ public class Koło {
         System.out.println("Podaj Liczbe pi");
         pi = podaj.nextFloat();
         Obwod = (int) (2*pi*r);
+        
+          System.out.println("POdany promien:="+r);
+          System.out.println("Podana liczba pi :=" +pi);
        System.out.println("Obwód wynosi:="+Obwod); 
     }
      public void PoleKola()
@@ -27,6 +30,9 @@ public class Koło {
           System.out.println("Podaj Liczbe pi");
         pi = podaj.nextFloat();   
          Pole =  (int)(pi*(r*r));
+         
+         System.out.println("POdany promien:="+r);
+          System.out.println("Podana liczba pi :=" +pi);
          System.out.println("Pole koła:="+Pole);
      }
   

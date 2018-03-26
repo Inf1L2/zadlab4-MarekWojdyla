@@ -11,19 +11,31 @@ public class Kwadrat {
     
     Scanner scanner =  new Scanner (System.in);
     
-    public void  Pole()
+    public void  Pole_kwadratu()
     {
         int bok;
         System.out.println("Podaj bok kwadratu");
         bok= scanner.nextInt();
         Pole_kwadratu = (bok*bok*bok*bok);
+        System.out.println("Podany bok:="+bok);
         System.out.println("Pole Kwadratu :="+Pole_kwadratu);
         
+        
+    }
+    public void Obwod_kwadratu ()
+    {
+         int bok;
+        System.out.println("Podaj bok kwadratu");
+        bok= scanner.nextInt();
+        int Obwod = 4*bok;
+           System.out.println("Podany bok:="+bok);
+        System.out.println("Pole Kwadratu :="+Obwod);
         
     }
     public static void main(String[] args) {
     
         Kwadrat k = new Kwadrat ();
-        k.Pole();
+        k.Pole_kwadratu();
+        k.Obwod_kwadratu();
 }
 }
